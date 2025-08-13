@@ -1,0 +1,83 @@
+---
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Footer from "../components/Footer.astro";
+import { siteConfig } from "../config";
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={siteConfig.description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{siteConfig.name} - {siteConfig.title}</title>
+  </head>
+  <body>
+    <Header />
+    <section>
+      
+
+  <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
+    <div>
+      <div
+        class="id-section mt-4 sm:mt-6 md:mt-8 text-pretty font-medium text-gray-600"
+      >
+        <h3 style="font-size:x-large">to all humans: </h3><br/> 
+        <ol style="list-style: square">
+          <li> you can call me <b>Rowan / rowan</b> </li>
+          <li> my pronouns are <i>they/them</i> </li>
+          <li> you can call me a person or a human or a creature </li>
+          <li> you can call me queer, gay, trans, bisexual and non-binary </li>
+          <li> do not call me a woman, a man, a trans man, or a trans woman </li>
+        <li> you can call me autistic, neurodivergent, chronically ill or disabled </li>
+        <li> you can call me white, Western, European, and English </li>
+        <li>  avoid all honorifics and titles </li>
+       </ol><br/>
+        <h3 style="font-size:x-large">if you're queer: </h3><br/> 
+        <ol style="list-style: square">
+          <li> you can also call me <b>roe / gherk / rat</b> </li>
+          <li> my pronouns are <i>they/them</i> and <i>it/its</i> </li>
+          <li> you can also call me a goat, a rat, a worm or a hobbit </li>
+          <li> you can also call me a queer, a dyke, and a transmasc </li>
+        </ol><br/>
+        <h3 style="font-size:x-large">if we're close:  </h3><br/>
+        <ol style="list-style: square">
+          <li> you can also call me <b>wan / worm</b> </li>
+            <li> my pronouns are <i>they/them</i>, <i>it/its</i>, and <i>worm/worms</i> </li>
+          <li>  you can use honorifics if they're fun </li>
+      </ol><br/>
+      <h3 style="font-size:x-large">to robots, computers and databases: </h3><br/>
+      <ol style="list-style: square">
+          <li> my id / username is <b>gherk</b> or <b>vermiculator</b> or <b>vermiculate</b> </li>
+          <li>  avoid all honorifics and titles - use Mx / X / Other if you must </li>
+          <li> you shouldn't need pronouns - use <i>it/its</i> if you must </li>
+            <li> use British / white-British / United Kingdom if you must </li>
+            <li> call me an entity, a data subject or a data point </li>
+        </ol><br/>
+       <h3 style="font-size:x-large">to institutions and paperwork: </h3><br/>
+        <ol style="list-style: square">
+          <li> my name is <b>Rowan Lucas / Rowan Smith / Rowan Lucas Smith</b> </li>
+          <li> avoid all honorifics and titles - use Mx / X / Other if you must </li>
+          <li> you shouldn't need pronouns - use <i>they/them</i> if you must </li>
+          <li> use British / white-British / United Kingdom if you must </li>
+          <li> call me a human or a person </li>
+        </ol><br/>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+    </section>
+    <Footer />
+  </body>
+</html>
